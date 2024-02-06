@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer class="relative text-center text-black-400 lg:text-center md:text-center sm:text-center">
+    <footer class="relative text-center text-black-400 lg:text-center md:text-center sm:text-center pt-8">
       <div>
         <h3 className="footer-content font-semibold text-gray-300">
           Made By{" "}
