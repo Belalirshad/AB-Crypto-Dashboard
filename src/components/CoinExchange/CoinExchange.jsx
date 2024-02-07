@@ -161,7 +161,11 @@ const CoinExchange = () => {
                         return (
                           <div
                             key={i}
-                            onClick={() => selectBuyCurrency(currency)}
+                            onClick={() =>
+                              selectBuyCurrency(
+                                targetedCurrencies[currency]["name"]
+                              )
+                            }
                             className="block rounded-lg px-4 py-2 max-sm:text-xs text-base text-white no-underline hover:bg-cyan-900 cursor-pointer"
                           >
                             {targetedCurrencies[currency]["name"]}
