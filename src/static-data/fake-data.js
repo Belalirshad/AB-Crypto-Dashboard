@@ -8,7 +8,7 @@ export const myCurrencies = [
 // Chart Types
 export const ChatType = [
   "Bar-Chart",
-  "Line-Chrat"
+  "Line-Chart"
 ];
 
 // This Data Will Be displayed Only When The USER Turns off his/her Internet Connection.
