@@ -23,8 +23,16 @@ const CryptocurrencySelector = () => {
 
   // useEffect hook to render the function on each reload
   useEffect(() => {
-    getCryptoCurrencies();
-  });
+    // getCryptoCurrencies();
+    let isMounted = true;
+
+    if (isMounted) {
+      getCryptoCurrencies();
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   // Function to open and close the drop-down list
   const toggling = () => {
@@ -34,7 +42,8 @@ const CryptocurrencySelector = () => {
   // function to select the crypto currencies from the list
   const selectCurrency = (currency) => {
     dispatch(cryptocurrency(currency));
-    setIsOpen((prev) => !prev);
+    // setIsOpen((prev) => !prev);
+    setIsOpen(false);
   };
 
   return (
