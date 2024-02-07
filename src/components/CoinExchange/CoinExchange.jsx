@@ -164,7 +164,7 @@ const CoinExchange = () => {
                             onClick={() => selectBuyCurrency(currency)}
                             className="block rounded-lg px-4 py-2 max-sm:text-xs text-base text-white no-underline hover:bg-cyan-900 cursor-pointer"
                           >
-                            {currency}
+                            {targetedCurrencies[currency]["name"]}
                           </div>
                         );
                       })}
