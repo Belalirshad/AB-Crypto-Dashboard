@@ -20,7 +20,7 @@ const CurrencySelector = () => {
     setIsOpen((prev) => !prev);
   };
   return (
-    <div className="lg:w-4/12 inline-flex transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md">
+    <div className="lg:w-4/12 inline-flex transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md ">
       <div className="w-full h-12 lg:h-14 items-center relative flex rounded-md bg-cyan-600 bg-opacity-10 backdrop-blur-md text-white">
         <div
           onClick={toggling}

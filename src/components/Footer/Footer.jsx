@@ -11,6 +11,13 @@ export const Footer = () => {
             href="https://github.com/Belalirshad"
             className="hover:underline hover:text-blue-400"
           >
+            ZAINAB FAIQUA{" "}
+          </a>
+          <a
+            class="link"
+            href="https://github.com/Belalirshad"
+            className="hover:underline hover:text-blue-400"
+          >
             BELAL IRSHAD{" "}
           </a>
         </h3>

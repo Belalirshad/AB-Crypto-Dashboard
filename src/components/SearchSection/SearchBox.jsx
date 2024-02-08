@@ -56,7 +56,7 @@ const SearchBox = () => {
   }, [searchCurrency, content]);
 
   return (
-    <div className="relative lg:w-8/12 bg-cyan-900 h-12 lg:h-14 flex items-center px-6 shadow-sm transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md">
+    <div className="relative lg:w-8/12 bg-cyan-900 h-12 lg:h-14 flex items-center px-6 shadow-sm transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md bg-opacity-10 backdrop-blur-md">
       <img
         className="max-lg:w-6 "
         src="./svg-images/search-icon.svg"
@@ -70,7 +70,7 @@ const SearchBox = () => {
           setSearchCurrency(e.target.value);
         }}
         type="text"
-        className="text-base lg:text-lg text-gray-500 font-medium h-full focus:outline-none w-full pl-2 ml-1 bg-cyan-900 text-white"
+        className="text-base lg:text-lg text-gray-500 font-medium h-full focus:outline-none w-full pl-2 ml-1 bg-cyan-900 text-white bg-opacity-10 backdrop-blur-md"
         placeholder="Search by coin"
       />
       {isOpen && (

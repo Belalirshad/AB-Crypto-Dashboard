@@ -48,7 +48,7 @@ const Portfolio = () => {
 
   return (
     <div className="lg:w-1/2 flex max-sm:flex-col p-2 lg:h-64 h-fit text-white shadow-sm transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md bg-cyan-600 bg-opacity-10 backdrop-blur-md">
-      <div className="w-3/12 max-sm:w-full max-sm:gap-1 flex flex-col items-start justify-between pt-2 pl-2">
+      <div className="w-3/12 max-sm:w-full max-sm:gap-1 flex flex-col items-start justify-between pt-2 pl-2 ">
         <p className="max-sm:text-base text-xl align-middle font-semibold">
           Portfolio
         </p>

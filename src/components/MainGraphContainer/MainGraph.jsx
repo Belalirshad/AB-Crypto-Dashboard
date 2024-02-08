@@ -23,7 +23,7 @@ const MainGraph = () => {
   });
 
   // constant styling for tailwind css
-  const mystyle = `bg-cyan-900 max-sm:p-1 max-sm:text-xs px-4 py-2 max-lg:px-3 max-sm:rounded-lg rounded-xl max-sm:border border-2 hover:bg-blue-200 cursor-pointer text-white`;
+  const mystyle = `bg-cyan-900 max-sm:p-1 max-sm:text-xs px-4 py-2 max-lg:px-3 max-sm:rounded-lg rounded-xl max-sm:border border-2 hover:bg-[#881337] cursor-pointer text-white bg-opacity-10 backdrop-blur-md`;
   return (
     <div className="mt-4 p-1 w-full h-96  shadow-sm transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md text-white">
       <div className="h-1/6 pt-2">
