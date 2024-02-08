@@ -1,65 +1,61 @@
-# Cryptocurrency Dashboard
+# Crypto-Dashboard
 
-A crypto dashboard is a digital platform that lives on a website or an app (either desktop or mobile). Its primary function is to track your cryptocurrency accounts and coins and monitor their historical prices and current values so that you can manage both your crypto assets and related financial plans accordingly.
+![crypto](https://github.com/Belalirshad/AB-Crypto-Dashboard/assets/101103105/a565284f-8765-48d7-973c-0be0d28a096f)
 
-## Description
+## 1. Introduction
 
-- This is a cryptocurrency dashboard made using React. This Application is mainly usefull for viwing all the details of cryptocurrencies according to the market cap.
+This project is a Cryptocurrency Dashboard built using React. The dashboard allows users to view real-time price data for a selection of popular cryptocurrencies, and also provides a historical price chart for each coin. The data is sourced from the CoinGecko API, and the UI is built using Tailwind CSS.
 
-- This application provides a beautiful user interface to view the cryptocurrencies by using different charts and graphs with giving the time duration.
+## 2. Features
 
-- Live API is used inside the application for viewing the Live data so that the application makes an interesting user experience.
+#### The Cryptocurrency Dashboard includes the following features.
 
-- Different Libraries are used for providing a better User Interface as well as User Experience.
+- Real-time price data for a selection of popular cryptocurrencies.
 
-## Libraries and Dependencies
+- Historical price charts for each coin.
 
-- [ReactJS] - (https://reactjs.org/)
-- [ReduxJS] - (https://redux.js.org/)
-- [React-redux] - (https://react-redux.js.org/)
-- [TailwindCSS] - (https://tailwindcss.com/)
-- [Chart.js] - (https://www.chartjs.org/)
-- [React-chartjs-2] - (https://react-chartjs-2.js.org/)
-- [React-toastify] - (https://fkhadra.github.io/react-toastify/introduction/)
-- [Coingecko API] - (https://www.coingecko.com/en/api/documentation/)
+- Ability to filter coins by name.
 
-## Simple Video Demo
+- User can choose Chart types.
 
-[Youtube] - (https://www.youtube.com/watch?v=SSoX6Yo-vs8)
+- Ability to sort coins by price, market cap or 24 hour change.
 
-## Deployment Link
+- Fully responsive design.
 
-[Netlify] - (https://cryptocurrency-app-by-tusharkanta.netlify.app/)
+- Crypto Exchange: allows users to convert different crypto currencies into other currencies.
 
-## Available Script to Run the Project
+- Sidebar indicates profit/loss percentage on 24 hour basis.
 
-### `npm install`
+- Sidebar Pagination.
 
-It will downloads all the dependencies and packages for the project.
+## 3. Technology Used
 
-### `npm start`
+- HTML
 
-Runs the app in the development mode.
+- TAILWIND CSS
 
-### `npm test`
+- React JS
 
-Launches the test runner in the interactive watch mode.
+- Redux
 
-### `npm run build`
+- Redux Thunk
 
-Builds the app for production to the `build` folder.
+- Context API
 
-### `npm run eject`
+- Chartjs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- CoinGeckoAPI
 
-### Some More Features about the Project
+## 4. Getting Started
 
-- This Project is completely responsive for any Kind of device.
-- It Provides a better User Interface and Better User Experience.
-- It Provides a Coin Exchange Feature so that the user is able to sell and buy different currencies.
-- We also able to see the market cap of different currencies.
-- A Search Box is implemented to filter out different cryptocurrencies.
-- Different Charts like Line, Bar and Pie Charts are used to provide better User Experience.
+#### To get started with the project, follow these steps:
 
-## ----- Thank You -----
+1. Clone the repository to your local machine.
+
+   git clone https://github.com/Belalirshad/AB-Crypto-Dashboard
+
+2. Install dependencies by running npm install.
+
+3. Start the development server by running 'npm start'.
+
+4. Open the application in your browser by navigating to 'http://localhost:3000'.
