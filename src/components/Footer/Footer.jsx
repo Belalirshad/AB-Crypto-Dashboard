@@ -8,7 +8,7 @@ export const Footer = () => {
           Made By{" "}
           <a
             class="link"
-            href="https://github.com/Belalirshad"
+            href="https://github.com/zainab3702"
             target="_blank"
             rel="noreferrer"
             className="hover:underline hover:text-blue-400"
