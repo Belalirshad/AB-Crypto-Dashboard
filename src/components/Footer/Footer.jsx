@@ -10,6 +10,7 @@ export const Footer = () => {
             class="link"
             href="https://github.com/Belalirshad"
             target="_blank"
+            rel="noreferrer"
             className="hover:underline hover:text-blue-400"
           >
             ZAINAB FAIQUA{" "}
@@ -18,6 +19,7 @@ export const Footer = () => {
             class="link"
             href="https://github.com/Belalirshad"
             target="_blank"
+            rel="noreferrer"
             className="hover:underline hover:text-blue-400"
           >
             BELAL IRSHAD{" "}
