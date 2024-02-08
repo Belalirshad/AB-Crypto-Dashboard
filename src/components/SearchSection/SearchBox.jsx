@@ -56,7 +56,7 @@ const SearchBox = () => {
   }, [searchCurrency, content]);
 
   return (
-    <div className="relative lg:w-8/12 bg-cyan-900 h-12 lg:h-14 flex items-center px-6 shadow-sm transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md bg-opacity-10 backdrop-blur-md">
+    <div className="relative lg:w-8/12 bg-gradient-to-r from-[#164e63] to-[#881337] h-12 lg:h-14 flex items-center px-6 shadow-sm transition ease-in-out hover:ring-4 ring-blue-400 ring-offset-slate-50 rounded-md">
       <img
         className="max-lg:w-6 "
         src="./svg-images/search-icon.svg"
@@ -74,7 +74,7 @@ const SearchBox = () => {
         placeholder="Search by coin"
       />
       {isOpen && (
-        <div className="absolute w-full top-11 max-sm:top-9 right-0 z-10 mt-4 origin-top-right rounded-md border border-gray-100 bg-cyan-900 shadow-lg">
+        <div className="absolute w-full top-11 max-sm:top-9 right-0 z-10 mt-4 origin-top-right rounded-md border border-gray-100 bg-gradient-to-r from-[#164e63] to-[#881337] shadow-lg">
           <div>
             {searchValues.map((currency, i) => {
               return (
